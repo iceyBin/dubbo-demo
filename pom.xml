@@ -24,7 +24,7 @@
         <dubbo-spring-boot-starter.version>2.7.6</dubbo-spring-boot-starter.version>
         <lombok.version>1.18.8</lombok.version>
         <hutool.version>4.5.7</hutool.version>
-        <zookeeper.version>3.4.8</zookeeper.version>
+        <zookeeper.version>3.4.14</zookeeper.version>
         <curator.version>2.9.1</curator.version>
     </properties>
 
