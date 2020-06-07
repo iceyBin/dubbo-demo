@@ -1,0 +1,17 @@
+
+spring:
+  application:
+    name: dubbo-consumer-sample
+
+demo:
+  service:
+    version: 1.0
+
+dubbo:
+  registry:
+    address: zookeeper://139.159.135.101:2181
+    file: ${user.home}/dubbo-cache/${spring.application.name}/dubbo.cache
+  consumer:
+    check: false
+server:
+  port: 8081
